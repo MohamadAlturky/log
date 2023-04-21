@@ -1,0 +1,53 @@
+body {
+    opacity: 0;
+}
+
+.form-control:focus {
+    border-color: #e8e8e8;
+    box-shadow: none;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+}
+
+.input-group-text {
+    background-color: #f7f7f7;
+    border-color: #e8e8e8;
+}
+
+.btn-primary {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #1e509a;
+    border-color: #1e509a;
+}
+.form-group input:focus{
+    box-shadow: 0 0 0 0.09rem #0d6efd;
+}
+
+.form-check-label {
+    color: #0d6efd;
+}
+
+* {
+    transition: all 0.9s;
+}
+.form-check{
+    padding: 0px !important;
+}
+
+.form-check-input {
+    padding: 0 !important;
+    margin: 0 !important;
+    position: relative !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .col-6 {
+        min-width: 80vw;
+    }
+}

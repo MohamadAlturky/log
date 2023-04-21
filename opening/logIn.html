@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOG IN</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="./css/logInStyle.css">
+    <link rel="icon" href="./images/logo.png" type="image/x-icon">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+</head>
+<body class="none">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 mx-auto mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="card-header bg-white ">
+                            <h1 class="text-center mb-0">Log in</h1>
+                        </div>
+                        <form id="login-form" method="post" action="#"
+                            class="d-flex flex-column align-top justify-content-between">
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control " id="email" name="email"
+                                    placeholder="Enter email" required autofocus>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control " id="password" name="password"
+                                    placeholder="Enter password" aria-label="Password" aria-describedby="show_password"
+                                    required>
+                                <div class="invalid-feedback"></div>
+                            </div>
+                            <div class="form-group">
+                                <div class="small-media d-flex justify-content-between align-content-center">
+                                    <div class="col p-0 d-flex align-content-center">Remember me</div>
+                                    <input type="checkbox" id="check" class="form-check-input">
+                                </div>
+                            </div>
+                            <button id="submit" type="submit" class="btn btn-primary">Log in</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="js/logInScript.js"></script>
+</body>
+</html>
